@@ -3,10 +3,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.pizzas {
-    display: flex;
-
-}
 
 .pizza {
 /*Box Model*/
@@ -21,27 +17,26 @@ display;*/
 }
 .large_pizza {
     background-color:#fdf4f6;
-    flex: 3;
+   
 
 }
 .medium_pizza {
     background-color:#ccf0f0;
-    flex: 3;
+   
 }
 .small_pizza {
     background-color:rgb(199, 159, 113);
-    flex: 3;
+   
 }
 .contact_us {
     background-color:rgb(198, 178, 212);
-    flex 3
+   
 }
 
-}
+
 @media (min-width: 960px) {
     body {
         background-color:#cdf5db;
-        display: flex;
     }
 
     .pizzas {
@@ -52,7 +47,7 @@ display;*/
 @media (min-width: 760px) {
     body {
         background-color:#e8e8e4;
-        display: flex;
+       
     }
 
 }
